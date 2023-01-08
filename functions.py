@@ -11,7 +11,7 @@ def clean_folder():
         os.remove(image)
 
 
-PASSWORD = "lybvsmxuwuzetjpk"
+PASSWORD = os.getenv("PASSWORD")
 SENDER = "ishikasethi2806@gmail.com"
 
 
